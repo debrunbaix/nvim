@@ -1,6 +1,6 @@
 # Configuration
 
-![nvim-dashboard](assets/alpha-nvim.png)
+![nvim-dashboard](assets/alpha_nvim.png)
 
 ## Tree structure
 
