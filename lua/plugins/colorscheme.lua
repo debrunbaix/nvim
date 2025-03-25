@@ -1,7 +1,15 @@
+--return {
+--    "debrunbaix/mono-purple.nvim",
+--
+--    config = function()
+--	vim.cmd("colorscheme mono-purple")
+--    end,
+--}
+
 return {
-    "debrunbaix/mono-purple.nvim",
+    "rebelot/kanagawa.nvim",
 
     config = function()
-	vim.cmd("colorscheme mono-purple")
-    end,
+	vim.cmd("colorscheme kanagawa-dragon")
+    end
 }
