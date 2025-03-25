@@ -1,5 +1,7 @@
 # Configuration
 
+![nvim-dashboard](assets/alpha-nvim.png)
+
 ## Tree structure
 
 ```bash tree
