@@ -9,6 +9,6 @@ return {
 	    },
 	})
 
-        vim.keymap.set("n", "<leader>o", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+        vim.keymap.set("n", "<leader>o", "<CMD>Oil<CR>")
     end
 }

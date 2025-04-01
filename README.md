@@ -23,7 +23,7 @@ nvim
 
 ### `lazy.lua` :
 
- > A configuration file that handle lazy plugin management.
+> A configuration file that handle lazy plugin management.
 
 ### `aplha.lua` :
 
