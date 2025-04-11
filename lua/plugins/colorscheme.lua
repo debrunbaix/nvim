@@ -1,17 +1,8 @@
---return {
---    "debrunbaix/mono-purple.nvim",
---
---    config = function()
---	vim.cmd("colorscheme mono-purple")
---    end,
---}
-
 return {
     "rebelot/kanagawa.nvim",
 
     config = function()
 	require("kanagawa").setup({
-            --transparent = false,  
             colors = {
                 theme = {
                     dragon = {
@@ -40,6 +31,6 @@ return {
                 }
             end,
         })
-	vim.cmd("colorscheme kanagawa-dragon")
+	vim.cmd.colorscheme("kanagawa-dragon")
     end
 }

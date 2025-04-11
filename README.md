@@ -5,20 +5,22 @@
 ## Tree structure
 
 ```bash tree
-nvim
 ├── init.lua
-└── lua
-    ├── config
-    │   └── lazy.lua
-    └── plugins
-        ├── alpha.lua
-        ├── colorizer.lua
-        ├── colorscheme.lua
-        ├── lsp.lua
-        ├── oil.lua
-        └── telescope.lua
-```
+├── lua
+│   ├── config
+│   │   └── lazy.lua
+│   └── plugins
+│       ├── alpha.lua
+│       ├── cmp.lua
+│       ├── colorizer.lua
+│       ├── colorscheme.lua
+│       ├── copilot.lua
+│       ├── lsp.lua
+│       ├── oil.lua
+│       ├── render-markdown.lua
+│       └── telescope.lua
 
+```
 ## Explanation
 
 ### `lazy.lua` :
@@ -50,6 +52,18 @@ nvim
 ### `telescope.lua` :
 
 > Configuration for the Telescope plugin, a fuzzy finder for files, buffers, and more.
+
+### `render-markdown.lua` :
+
+> Configuration for rendering markdown files in Neovim, providing a better preview experience.
+
+### `cmp.lua` :
+
+> Configuration for the `nvim-cmp` plugin, which provides autocompletion capabilities in Neovim.
+
+### `copilot.lua` :
+
+> Configuration for the Copilot plugin, which provides AI-powered code suggestions and completions.
 
 ## Installation
 
