@@ -1,6 +1,9 @@
 require("config.lazy")
+require("config.lsp")
 
 require("lazy").setup("plugins")
+
+vim.diagnostic.config({ virtual_lines = true })
 
 vim.opt.clipboard = "unnamedplus"
 
