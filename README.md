@@ -8,19 +8,21 @@
 ├── init.lua
 ├── lua
 │   ├── config
-│   │   └── lazy.lua
+│   │   ├── lazy.lua
+│   │   └── lsp.lua
 │   └── plugins
+│       ├── 42header.lua
 │       ├── alpha.lua
 │       ├── cmp.lua
 │       ├── colorizer.lua
 │       ├── colorscheme.lua
 │       ├── copilot.lua
-│       ├── lsp.lua
 │       ├── oil.lua
 │       ├── render-markdown.lua
 │       └── telescope.lua
 
 ```
+
 ## Explanation
 
 ### `lazy.lua` :
@@ -39,11 +41,11 @@
 
 > A file dedicated to setting up and managing color schemes for Neovim.
 
-- I use my colorscheme : [mono-purple](https://github.com/debrunbaix/mono-purple.nvim)
+I use `rebelot/kanagawa.nvim` as my main colorscheme but I change the background to deep dark.
 
 ### `lsp.lua` :
 
-> Configuration for Language Server Protocol (LSP) integration, enabling advanced language features like autocompletion and diagnostics for `Python` and `C`.
+> Configuration for Language Server Protocol (LSP) integration, enabling advanced language features like autocompletion and diagnostics for `Python` and `C`. It is updated for 0.11.
 
 ### `oil.lua` :
 
@@ -77,7 +79,7 @@ git clone https://github.com/debrunbaix/nvim.git
 Install the lsp server.
 
 ```bash
-sudo pacman -S clang pyright
+sudo pacman -S clang pyright rust-analyzer
 ```
 
 Test the config.
