@@ -4,6 +4,11 @@ vim.lsp.config.clangd = {
   root_markers = { "src_code.c", ".clangd", "compile_commands.json", "compile_flags.txt", "CMakeLists.txt" },
 }
 
+vim.lsp.config.bashls = {
+	cmd = { 'bash-language-server', 'start' },
+  filetypes = { 'bash', 'sh' }
+}
+
 vim.lsp.config.pyright = {
   cmd = { "pyright-langserver", "--stdio" },
   filetypes = { "python" },
@@ -20,6 +25,7 @@ vim.lsp.enable({
   "clangd",
   "rust_analyzer",
   "pyright",
+	"bashls",
 })
 
 vim.api.nvim_create_autocmd('LspAttach', {
