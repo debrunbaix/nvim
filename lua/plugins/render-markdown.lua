@@ -13,3 +13,4 @@ return {
 	vim.keymap.set('n', '<leader>m', '<CMD>RenderMarkdown toggle<CR>')
     end
 }
+
